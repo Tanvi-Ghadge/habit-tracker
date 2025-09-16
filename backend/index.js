@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
-//   "https://neuronote-two.vercel.app",
+  "habit-tracker-ten-umber.vercel.app",
   "http://localhost:5173",
 ];
 
