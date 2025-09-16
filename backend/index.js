@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
-  "habit-tracker-ten-umber.vercel.app",
+  "https://habit-tracker-ten-umber.vercel.app",
   "http://localhost:5173",
 ];
 
