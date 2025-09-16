@@ -42,7 +42,6 @@ app.use("/api/social", socialrouter);
 app.use("/api/game", leaderboardRouter);
 
 
-app.options("*", cors());
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
