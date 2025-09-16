@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import LandingPage from "./pages/LandingPage";
-import Homepage from "./pages/Homepage";
+import HomePage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -37,7 +37,7 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={authUser ? <Homepage /> : <LandingPage />}
+          element={authUser ? <HomePage /> : <LandingPage />}
         />
         <Route
           path="/signup"
